@@ -1,0 +1,84 @@
+#input any float numver using the float keyword
+'''
+x=float(input("eneter a number (such as 3.5 or 4.5):"))
+y=float(input("please eneter the second number:"))
+#use == as equal to
+if x==y:
+    print("they are the same number")
+else:
+    print("they are not the same")
+#use if statement for comparison 
+if -0.05 < x - y and x - y < 0.05:
+    print("The numbers are close together")
+
+if x == y + 5 or x == y - 5:
+    print("The numbers are one apart")
+
+if (x > 0 and y > 0) or (x < 0 and y < 0):
+    print("The numbers have the same sign")
+
+#use else statment if the answer is not the same 
+else:
+    print("The numbers have different signs")
+
+
+string1=input(" enter at string:")
+substring=input("enter a substring:")
+
+if string1 in substring:
+    print("the string is in the substring")
+
+    howmanystrings=string1.count(substring)
+    print(f"it contains{howmanystrings} instance(s).")
+
+    if string1.startswith(substring):
+        print("  string starts with the substring.")
+    else:
+        print(" string does not start with the substring.")
+
+    if string1.endswith(substring):
+        print(" string ends with the substring.")
+    else:
+        print(" string does not end with the substring.")
+
+else:
+    print("the string doesnt have the substring")
+
+
+#Write a program that reads in a string and prints whether it
+#contains only letters.
+#contains only uppercase letters.
+#contains only lowercase letters.
+#contains only digits.
+#contains only letters and digits. starts with an uppercase letter.
+#ends with a period.
+
+Lettters1=input("please enter your desired letter:")
+lsubstring=input("please enter your letter substring:")
+
+
+if Lettters1.isastr():
+    print("it only contains letters")
+    if Lettters1.isupper(lsubstring):
+        print("this string contains only uppercase letters")
+    if Lettters1.islower(lsubstring):
+        print("this string contain only lowercase letters")
+    if Lettters1.isadijit(lsubstring):
+        print("this string contains dijits too")
+    if Lettters1.issubclass(lsubstring) and Lettters1.isadijit(lsubstring):
+        print("this sentence contains both letters and dijit")
+else:
+    print("this string doesnot contains letters")
+
+#Exercise: Write a program that prompts the user to provide a single character from the alphabet.
+#  Print Vowel or Consonant, depending on the user input.
+#  If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, 
+# print an error message.
+
+Alphabet1=input("please enter your alphabet:")
+
+if len(Alphabet1)!= 1 or not Alphabet1.isalpha():
+    print("this is not a single alphabet please enter the single alphbet")
+     if Alphabet1
+    
+'''
